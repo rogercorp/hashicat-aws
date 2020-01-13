@@ -9,6 +9,8 @@ resource aws_vpc "hashicat" {
 
   tags = {
     Name = "${var.prefix}-vpc"
+    Billable = "true"
+    Department = "devops"
   }
 }
 
