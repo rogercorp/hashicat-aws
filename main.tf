@@ -11,7 +11,6 @@ resource aws_vpc "hashicat" {
     Name = "${var.prefix}-vpc"
     Billable = "true"
     Department = "devops"
-    Region = "us-west-2"
   }
 }
 
